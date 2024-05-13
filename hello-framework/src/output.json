@@ -1,0 +1,1127 @@
+[
+    {
+        "a": "streams",
+        "b": "streams",
+        "correlation": 1.0
+    },
+    {
+        "a": "streams",
+        "b": "artist_count",
+        "correlation": -0.1364634747824173
+    },
+    {
+        "a": "streams",
+        "b": "in_spotify_playlists",
+        "correlation": 0.7898221599550612
+    },
+    {
+        "a": "streams",
+        "b": "in_spotify_charts",
+        "correlation": 0.24582119983366885
+    },
+    {
+        "a": "streams",
+        "b": "in_apple_playlists",
+        "correlation": 0.7720629840820624
+    },
+    {
+        "a": "streams",
+        "b": "in_apple_charts",
+        "correlation": 0.32023434128277695
+    },
+    {
+        "a": "streams",
+        "b": "in_deezer_charts",
+        "correlation": 0.22859797355472555
+    },
+    {
+        "a": "streams",
+        "b": "bpm",
+        "correlation": -0.0024379081382712967
+    },
+    {
+        "a": "streams",
+        "b": "danceability_%",
+        "correlation": -0.10545688369141895
+    },
+    {
+        "a": "streams",
+        "b": "valence_%",
+        "correlation": -0.040831367495159435
+    },
+    {
+        "a": "streams",
+        "b": "energy_%",
+        "correlation": -0.026051488364249
+    },
+    {
+        "a": "streams",
+        "b": "acousticness_%",
+        "correlation": -0.004484652700683855
+    },
+    {
+        "a": "streams",
+        "b": "instrumentalness_%",
+        "correlation": -0.044902473175109724
+    },
+    {
+        "a": "streams",
+        "b": "liveness_%",
+        "correlation": -0.04833729577983247
+    },
+    {
+        "a": "streams",
+        "b": "speechiness_%",
+        "correlation": -0.11233299640338565
+    },
+    {
+        "a": "artist_count",
+        "b": "streams",
+        "correlation": -0.1364634747824173
+    },
+    {
+        "a": "artist_count",
+        "b": "artist_count",
+        "correlation": 1.0
+    },
+    {
+        "a": "artist_count",
+        "b": "in_spotify_playlists",
+        "correlation": -0.1021840060566155
+    },
+    {
+        "a": "artist_count",
+        "b": "in_spotify_charts",
+        "correlation": -0.018915830660793487
+    },
+    {
+        "a": "artist_count",
+        "b": "in_apple_playlists",
+        "correlation": -0.05148657453716874
+    },
+    {
+        "a": "artist_count",
+        "b": "in_apple_charts",
+        "correlation": -0.08933555932424485
+    },
+    {
+        "a": "artist_count",
+        "b": "in_deezer_charts",
+        "correlation": -0.004022088479554437
+    },
+    {
+        "a": "artist_count",
+        "b": "bpm",
+        "correlation": -0.03868001023861907
+    },
+    {
+        "a": "artist_count",
+        "b": "danceability_%",
+        "correlation": 0.20654264250847554
+    },
+    {
+        "a": "artist_count",
+        "b": "valence_%",
+        "correlation": 0.12871160035271825
+    },
+    {
+        "a": "artist_count",
+        "b": "energy_%",
+        "correlation": 0.13731693116237867
+    },
+    {
+        "a": "artist_count",
+        "b": "acousticness_%",
+        "correlation": -0.10161916391245189
+    },
+    {
+        "a": "artist_count",
+        "b": "instrumentalness_%",
+        "correlation": -0.05035942583746669
+    },
+    {
+        "a": "artist_count",
+        "b": "liveness_%",
+        "correlation": 0.042681038554432504
+    },
+    {
+        "a": "artist_count",
+        "b": "speechiness_%",
+        "correlation": 0.11948569232332754
+    },
+    {
+        "a": "in_spotify_playlists",
+        "b": "streams",
+        "correlation": 0.7898221599550612
+    },
+    {
+        "a": "in_spotify_playlists",
+        "b": "artist_count",
+        "correlation": -0.1021840060566155
+    },
+    {
+        "a": "in_spotify_playlists",
+        "b": "in_spotify_playlists",
+        "correlation": 1.0
+    },
+    {
+        "a": "in_spotify_playlists",
+        "b": "in_spotify_charts",
+        "correlation": 0.1641816569141308
+    },
+    {
+        "a": "in_spotify_playlists",
+        "b": "in_apple_playlists",
+        "correlation": 0.7082577929461397
+    },
+    {
+        "a": "in_spotify_playlists",
+        "b": "in_apple_charts",
+        "correlation": 0.27116237753613553
+    },
+    {
+        "a": "in_spotify_playlists",
+        "b": "in_deezer_charts",
+        "correlation": 0.1442269774986632
+    },
+    {
+        "a": "in_spotify_playlists",
+        "b": "bpm",
+        "correlation": -0.019738817231005575
+    },
+    {
+        "a": "in_spotify_playlists",
+        "b": "danceability_%",
+        "correlation": -0.10688511177491225
+    },
+    {
+        "a": "in_spotify_playlists",
+        "b": "valence_%",
+        "correlation": -0.02158468185803554
+    },
+    {
+        "a": "in_spotify_playlists",
+        "b": "energy_%",
+        "correlation": 0.03389892814097271
+    },
+    {
+        "a": "in_spotify_playlists",
+        "b": "acousticness_%",
+        "correlation": -0.06468255056453595
+    },
+    {
+        "a": "in_spotify_playlists",
+        "b": "instrumentalness_%",
+        "correlation": -0.02819370814820548
+    },
+    {
+        "a": "in_spotify_playlists",
+        "b": "liveness_%",
+        "correlation": -0.04672502944096791
+    },
+    {
+        "a": "in_spotify_playlists",
+        "b": "speechiness_%",
+        "correlation": -0.08997342146509514
+    },
+    {
+        "a": "in_spotify_charts",
+        "b": "streams",
+        "correlation": 0.24582119983366885
+    },
+    {
+        "a": "in_spotify_charts",
+        "b": "artist_count",
+        "correlation": -0.018915830660793487
+    },
+    {
+        "a": "in_spotify_charts",
+        "b": "in_spotify_playlists",
+        "correlation": 0.1641816569141308
+    },
+    {
+        "a": "in_spotify_charts",
+        "b": "in_spotify_charts",
+        "correlation": 1.0
+    },
+    {
+        "a": "in_spotify_charts",
+        "b": "in_apple_playlists",
+        "correlation": 0.2330570263475833
+    },
+    {
+        "a": "in_spotify_charts",
+        "b": "in_apple_charts",
+        "correlation": 0.5519853261754839
+    },
+    {
+        "a": "in_spotify_charts",
+        "b": "in_deezer_charts",
+        "correlation": 0.6001007474789168
+    },
+    {
+        "a": "in_spotify_charts",
+        "b": "bpm",
+        "correlation": 0.03443489517088789
+    },
+    {
+        "a": "in_spotify_charts",
+        "b": "danceability_%",
+        "correlation": 0.029475324158158147
+    },
+    {
+        "a": "in_spotify_charts",
+        "b": "valence_%",
+        "correlation": 0.036204844348830194
+    },
+    {
+        "a": "in_spotify_charts",
+        "b": "energy_%",
+        "correlation": 0.08212369428917464
+    },
+    {
+        "a": "in_spotify_charts",
+        "b": "acousticness_%",
+        "correlation": -0.0555128117237242
+    },
+    {
+        "a": "in_spotify_charts",
+        "b": "instrumentalness_%",
+        "correlation": -0.010269970024969077
+    },
+    {
+        "a": "in_spotify_charts",
+        "b": "liveness_%",
+        "correlation": -0.04761905560080994
+    },
+    {
+        "a": "in_spotify_charts",
+        "b": "speechiness_%",
+        "correlation": -0.08226727092484573
+    },
+    {
+        "a": "in_apple_playlists",
+        "b": "streams",
+        "correlation": 0.7720629840820624
+    },
+    {
+        "a": "in_apple_playlists",
+        "b": "artist_count",
+        "correlation": -0.05148657453716874
+    },
+    {
+        "a": "in_apple_playlists",
+        "b": "in_spotify_playlists",
+        "correlation": 0.7082577929461397
+    },
+    {
+        "a": "in_apple_playlists",
+        "b": "in_spotify_charts",
+        "correlation": 0.2330570263475833
+    },
+    {
+        "a": "in_apple_playlists",
+        "b": "in_apple_playlists",
+        "correlation": 1.0
+    },
+    {
+        "a": "in_apple_playlists",
+        "b": "in_apple_charts",
+        "correlation": 0.414184278981839
+    },
+    {
+        "a": "in_apple_playlists",
+        "b": "in_deezer_charts",
+        "correlation": 0.3688615521175925
+    },
+    {
+        "a": "in_apple_playlists",
+        "b": "bpm",
+        "correlation": 0.02345023831402213
+    },
+    {
+        "a": "in_apple_playlists",
+        "b": "danceability_%",
+        "correlation": -0.025945369434505868
+    },
+    {
+        "a": "in_apple_playlists",
+        "b": "valence_%",
+        "correlation": 0.05774892656649569
+    },
+    {
+        "a": "in_apple_playlists",
+        "b": "energy_%",
+        "correlation": 0.052807262331789076
+    },
+    {
+        "a": "in_apple_playlists",
+        "b": "acousticness_%",
+        "correlation": -0.062298562624503194
+    },
+    {
+        "a": "in_apple_playlists",
+        "b": "instrumentalness_%",
+        "correlation": -0.05734920926648434
+    },
+    {
+        "a": "in_apple_playlists",
+        "b": "liveness_%",
+        "correlation": -0.049661619251835244
+    },
+    {
+        "a": "in_apple_playlists",
+        "b": "speechiness_%",
+        "correlation": -0.1085145290831603
+    },
+    {
+        "a": "in_apple_charts",
+        "b": "streams",
+        "correlation": 0.32023434128277695
+    },
+    {
+        "a": "in_apple_charts",
+        "b": "artist_count",
+        "correlation": -0.08933555932424485
+    },
+    {
+        "a": "in_apple_charts",
+        "b": "in_spotify_playlists",
+        "correlation": 0.27116237753613553
+    },
+    {
+        "a": "in_apple_charts",
+        "b": "in_spotify_charts",
+        "correlation": 0.5519853261754839
+    },
+    {
+        "a": "in_apple_charts",
+        "b": "in_apple_playlists",
+        "correlation": 0.414184278981839
+    },
+    {
+        "a": "in_apple_charts",
+        "b": "in_apple_charts",
+        "correlation": 1.0
+    },
+    {
+        "a": "in_apple_charts",
+        "b": "in_deezer_charts",
+        "correlation": 0.38344263983079224
+    },
+    {
+        "a": "in_apple_charts",
+        "b": "bpm",
+        "correlation": 0.030499809162666192
+    },
+    {
+        "a": "in_apple_charts",
+        "b": "danceability_%",
+        "correlation": -0.026260333744276953
+    },
+    {
+        "a": "in_apple_charts",
+        "b": "valence_%",
+        "correlation": 0.04886794664991554
+    },
+    {
+        "a": "in_apple_charts",
+        "b": "energy_%",
+        "correlation": 0.10519853933265175
+    },
+    {
+        "a": "in_apple_charts",
+        "b": "acousticness_%",
+        "correlation": -0.07769248867575819
+    },
+    {
+        "a": "in_apple_charts",
+        "b": "instrumentalness_%",
+        "correlation": -0.013355516486846476
+    },
+    {
+        "a": "in_apple_charts",
+        "b": "liveness_%",
+        "correlation": -0.018839151484428735
+    },
+    {
+        "a": "in_apple_charts",
+        "b": "speechiness_%",
+        "correlation": -0.15244047025061286
+    },
+    {
+        "a": "in_deezer_charts",
+        "b": "streams",
+        "correlation": 0.22859797355472555
+    },
+    {
+        "a": "in_deezer_charts",
+        "b": "artist_count",
+        "correlation": -0.004022088479554437
+    },
+    {
+        "a": "in_deezer_charts",
+        "b": "in_spotify_playlists",
+        "correlation": 0.1442269774986632
+    },
+    {
+        "a": "in_deezer_charts",
+        "b": "in_spotify_charts",
+        "correlation": 0.6001007474789168
+    },
+    {
+        "a": "in_deezer_charts",
+        "b": "in_apple_playlists",
+        "correlation": 0.3688615521175925
+    },
+    {
+        "a": "in_deezer_charts",
+        "b": "in_apple_charts",
+        "correlation": 0.38344263983079224
+    },
+    {
+        "a": "in_deezer_charts",
+        "b": "in_deezer_charts",
+        "correlation": 1.0
+    },
+    {
+        "a": "in_deezer_charts",
+        "b": "bpm",
+        "correlation": 0.027833946920625668
+    },
+    {
+        "a": "in_deezer_charts",
+        "b": "danceability_%",
+        "correlation": 0.07051001819761865
+    },
+    {
+        "a": "in_deezer_charts",
+        "b": "valence_%",
+        "correlation": 0.07671076685699714
+    },
+    {
+        "a": "in_deezer_charts",
+        "b": "energy_%",
+        "correlation": 0.09477294495980634
+    },
+    {
+        "a": "in_deezer_charts",
+        "b": "acousticness_%",
+        "correlation": -0.029731616827581117
+    },
+    {
+        "a": "in_deezer_charts",
+        "b": "instrumentalness_%",
+        "correlation": 0.005311699552390405
+    },
+    {
+        "a": "in_deezer_charts",
+        "b": "liveness_%",
+        "correlation": -0.007610304130968903
+    },
+    {
+        "a": "in_deezer_charts",
+        "b": "speechiness_%",
+        "correlation": -0.0809196451433799
+    },
+    {
+        "a": "bpm",
+        "b": "streams",
+        "correlation": -0.0024379081382712967
+    },
+    {
+        "a": "bpm",
+        "b": "artist_count",
+        "correlation": -0.03868001023861907
+    },
+    {
+        "a": "bpm",
+        "b": "in_spotify_playlists",
+        "correlation": -0.019738817231005575
+    },
+    {
+        "a": "bpm",
+        "b": "in_spotify_charts",
+        "correlation": 0.03443489517088789
+    },
+    {
+        "a": "bpm",
+        "b": "in_apple_playlists",
+        "correlation": 0.02345023831402213
+    },
+    {
+        "a": "bpm",
+        "b": "in_apple_charts",
+        "correlation": 0.030499809162666192
+    },
+    {
+        "a": "bpm",
+        "b": "in_deezer_charts",
+        "correlation": 0.027833946920625668
+    },
+    {
+        "a": "bpm",
+        "b": "bpm",
+        "correlation": 1.0
+    },
+    {
+        "a": "bpm",
+        "b": "danceability_%",
+        "correlation": -0.14762952437003476
+    },
+    {
+        "a": "bpm",
+        "b": "valence_%",
+        "correlation": 0.04169277829335055
+    },
+    {
+        "a": "bpm",
+        "b": "energy_%",
+        "correlation": 0.02593234761423753
+    },
+    {
+        "a": "bpm",
+        "b": "acousticness_%",
+        "correlation": -0.01806464319606557
+    },
+    {
+        "a": "bpm",
+        "b": "instrumentalness_%",
+        "correlation": -0.0012832753462335117
+    },
+    {
+        "a": "bpm",
+        "b": "liveness_%",
+        "correlation": -0.0008026429891762856
+    },
+    {
+        "a": "bpm",
+        "b": "speechiness_%",
+        "correlation": 0.03893679272721138
+    },
+    {
+        "a": "danceability_%",
+        "b": "streams",
+        "correlation": -0.10545688369141895
+    },
+    {
+        "a": "danceability_%",
+        "b": "artist_count",
+        "correlation": 0.20654264250847554
+    },
+    {
+        "a": "danceability_%",
+        "b": "in_spotify_playlists",
+        "correlation": -0.10688511177491225
+    },
+    {
+        "a": "danceability_%",
+        "b": "in_spotify_charts",
+        "correlation": 0.029475324158158147
+    },
+    {
+        "a": "danceability_%",
+        "b": "in_apple_playlists",
+        "correlation": -0.025945369434505868
+    },
+    {
+        "a": "danceability_%",
+        "b": "in_apple_charts",
+        "correlation": -0.026260333744276953
+    },
+    {
+        "a": "danceability_%",
+        "b": "in_deezer_charts",
+        "correlation": 0.07051001819761865
+    },
+    {
+        "a": "danceability_%",
+        "b": "bpm",
+        "correlation": -0.14762952437003476
+    },
+    {
+        "a": "danceability_%",
+        "b": "danceability_%",
+        "correlation": 1.0
+    },
+    {
+        "a": "danceability_%",
+        "b": "valence_%",
+        "correlation": 0.40987279921202513
+    },
+    {
+        "a": "danceability_%",
+        "b": "energy_%",
+        "correlation": 0.19848488212205886
+    },
+    {
+        "a": "danceability_%",
+        "b": "acousticness_%",
+        "correlation": -0.23712804263530993
+    },
+    {
+        "a": "danceability_%",
+        "b": "instrumentalness_%",
+        "correlation": -0.08937130906348609
+    },
+    {
+        "a": "danceability_%",
+        "b": "liveness_%",
+        "correlation": -0.07766456178916069
+    },
+    {
+        "a": "danceability_%",
+        "b": "speechiness_%",
+        "correlation": 0.1843934014998135
+    },
+    {
+        "a": "valence_%",
+        "b": "streams",
+        "correlation": -0.040831367495159435
+    },
+    {
+        "a": "valence_%",
+        "b": "artist_count",
+        "correlation": 0.12871160035271825
+    },
+    {
+        "a": "valence_%",
+        "b": "in_spotify_playlists",
+        "correlation": -0.02158468185803554
+    },
+    {
+        "a": "valence_%",
+        "b": "in_spotify_charts",
+        "correlation": 0.036204844348830194
+    },
+    {
+        "a": "valence_%",
+        "b": "in_apple_playlists",
+        "correlation": 0.05774892656649569
+    },
+    {
+        "a": "valence_%",
+        "b": "in_apple_charts",
+        "correlation": 0.04886794664991554
+    },
+    {
+        "a": "valence_%",
+        "b": "in_deezer_charts",
+        "correlation": 0.07671076685699714
+    },
+    {
+        "a": "valence_%",
+        "b": "bpm",
+        "correlation": 0.04169277829335055
+    },
+    {
+        "a": "valence_%",
+        "b": "danceability_%",
+        "correlation": 0.40987279921202513
+    },
+    {
+        "a": "valence_%",
+        "b": "valence_%",
+        "correlation": 1.0
+    },
+    {
+        "a": "valence_%",
+        "b": "energy_%",
+        "correlation": 0.35751566056119355
+    },
+    {
+        "a": "valence_%",
+        "b": "acousticness_%",
+        "correlation": -0.08116130726708855
+    },
+    {
+        "a": "valence_%",
+        "b": "instrumentalness_%",
+        "correlation": -0.13276471040634932
+    },
+    {
+        "a": "valence_%",
+        "b": "liveness_%",
+        "correlation": 0.021382331796169548
+    },
+    {
+        "a": "valence_%",
+        "b": "speechiness_%",
+        "correlation": 0.04187395542172341
+    },
+    {
+        "a": "energy_%",
+        "b": "streams",
+        "correlation": -0.026051488364249
+    },
+    {
+        "a": "energy_%",
+        "b": "artist_count",
+        "correlation": 0.13731693116237867
+    },
+    {
+        "a": "energy_%",
+        "b": "in_spotify_playlists",
+        "correlation": 0.03389892814097271
+    },
+    {
+        "a": "energy_%",
+        "b": "in_spotify_charts",
+        "correlation": 0.08212369428917464
+    },
+    {
+        "a": "energy_%",
+        "b": "in_apple_playlists",
+        "correlation": 0.052807262331789076
+    },
+    {
+        "a": "energy_%",
+        "b": "in_apple_charts",
+        "correlation": 0.10519853933265175
+    },
+    {
+        "a": "energy_%",
+        "b": "in_deezer_charts",
+        "correlation": 0.09477294495980634
+    },
+    {
+        "a": "energy_%",
+        "b": "bpm",
+        "correlation": 0.02593234761423753
+    },
+    {
+        "a": "energy_%",
+        "b": "danceability_%",
+        "correlation": 0.19848488212205886
+    },
+    {
+        "a": "energy_%",
+        "b": "valence_%",
+        "correlation": 0.35751566056119355
+    },
+    {
+        "a": "energy_%",
+        "b": "energy_%",
+        "correlation": 1.0
+    },
+    {
+        "a": "energy_%",
+        "b": "acousticness_%",
+        "correlation": -0.5773182106878039
+    },
+    {
+        "a": "energy_%",
+        "b": "instrumentalness_%",
+        "correlation": -0.03849248260738036
+    },
+    {
+        "a": "energy_%",
+        "b": "liveness_%",
+        "correlation": 0.11733381742612174
+    },
+    {
+        "a": "energy_%",
+        "b": "speechiness_%",
+        "correlation": -0.0046316923371764246
+    },
+    {
+        "a": "acousticness_%",
+        "b": "streams",
+        "correlation": -0.004484652700683855
+    },
+    {
+        "a": "acousticness_%",
+        "b": "artist_count",
+        "correlation": -0.10161916391245189
+    },
+    {
+        "a": "acousticness_%",
+        "b": "in_spotify_playlists",
+        "correlation": -0.06468255056453595
+    },
+    {
+        "a": "acousticness_%",
+        "b": "in_spotify_charts",
+        "correlation": -0.0555128117237242
+    },
+    {
+        "a": "acousticness_%",
+        "b": "in_apple_playlists",
+        "correlation": -0.062298562624503194
+    },
+    {
+        "a": "acousticness_%",
+        "b": "in_apple_charts",
+        "correlation": -0.07769248867575819
+    },
+    {
+        "a": "acousticness_%",
+        "b": "in_deezer_charts",
+        "correlation": -0.029731616827581117
+    },
+    {
+        "a": "acousticness_%",
+        "b": "bpm",
+        "correlation": -0.01806464319606557
+    },
+    {
+        "a": "acousticness_%",
+        "b": "danceability_%",
+        "correlation": -0.23712804263530993
+    },
+    {
+        "a": "acousticness_%",
+        "b": "valence_%",
+        "correlation": -0.08116130726708855
+    },
+    {
+        "a": "acousticness_%",
+        "b": "energy_%",
+        "correlation": -0.5773182106878039
+    },
+    {
+        "a": "acousticness_%",
+        "b": "acousticness_%",
+        "correlation": 1.0
+    },
+    {
+        "a": "acousticness_%",
+        "b": "instrumentalness_%",
+        "correlation": 0.042657509445718146
+    },
+    {
+        "a": "acousticness_%",
+        "b": "liveness_%",
+        "correlation": -0.050229946005252095
+    },
+    {
+        "a": "acousticness_%",
+        "b": "speechiness_%",
+        "correlation": -0.023098639146643837
+    },
+    {
+        "a": "instrumentalness_%",
+        "b": "streams",
+        "correlation": -0.044902473175109724
+    },
+    {
+        "a": "instrumentalness_%",
+        "b": "artist_count",
+        "correlation": -0.05035942583746669
+    },
+    {
+        "a": "instrumentalness_%",
+        "b": "in_spotify_playlists",
+        "correlation": -0.02819370814820548
+    },
+    {
+        "a": "instrumentalness_%",
+        "b": "in_spotify_charts",
+        "correlation": -0.010269970024969077
+    },
+    {
+        "a": "instrumentalness_%",
+        "b": "in_apple_playlists",
+        "correlation": -0.05734920926648434
+    },
+    {
+        "a": "instrumentalness_%",
+        "b": "in_apple_charts",
+        "correlation": -0.013355516486846476
+    },
+    {
+        "a": "instrumentalness_%",
+        "b": "in_deezer_charts",
+        "correlation": 0.005311699552390405
+    },
+    {
+        "a": "instrumentalness_%",
+        "b": "bpm",
+        "correlation": -0.0012832753462335117
+    },
+    {
+        "a": "instrumentalness_%",
+        "b": "danceability_%",
+        "correlation": -0.08937130906348609
+    },
+    {
+        "a": "instrumentalness_%",
+        "b": "valence_%",
+        "correlation": -0.13276471040634932
+    },
+    {
+        "a": "instrumentalness_%",
+        "b": "energy_%",
+        "correlation": -0.03849248260738036
+    },
+    {
+        "a": "instrumentalness_%",
+        "b": "acousticness_%",
+        "correlation": 0.042657509445718146
+    },
+    {
+        "a": "instrumentalness_%",
+        "b": "instrumentalness_%",
+        "correlation": 1.0
+    },
+    {
+        "a": "instrumentalness_%",
+        "b": "liveness_%",
+        "correlation": -0.04598585270571089
+    },
+    {
+        "a": "instrumentalness_%",
+        "b": "speechiness_%",
+        "correlation": -0.0835629913418909
+    },
+    {
+        "a": "liveness_%",
+        "b": "streams",
+        "correlation": -0.04833729577983247
+    },
+    {
+        "a": "liveness_%",
+        "b": "artist_count",
+        "correlation": 0.042681038554432504
+    },
+    {
+        "a": "liveness_%",
+        "b": "in_spotify_playlists",
+        "correlation": -0.04672502944096791
+    },
+    {
+        "a": "liveness_%",
+        "b": "in_spotify_charts",
+        "correlation": -0.04761905560080994
+    },
+    {
+        "a": "liveness_%",
+        "b": "in_apple_playlists",
+        "correlation": -0.049661619251835244
+    },
+    {
+        "a": "liveness_%",
+        "b": "in_apple_charts",
+        "correlation": -0.018839151484428735
+    },
+    {
+        "a": "liveness_%",
+        "b": "in_deezer_charts",
+        "correlation": -0.007610304130968903
+    },
+    {
+        "a": "liveness_%",
+        "b": "bpm",
+        "correlation": -0.0008026429891762856
+    },
+    {
+        "a": "liveness_%",
+        "b": "danceability_%",
+        "correlation": -0.07766456178916069
+    },
+    {
+        "a": "liveness_%",
+        "b": "valence_%",
+        "correlation": 0.021382331796169548
+    },
+    {
+        "a": "liveness_%",
+        "b": "energy_%",
+        "correlation": 0.11733381742612174
+    },
+    {
+        "a": "liveness_%",
+        "b": "acousticness_%",
+        "correlation": -0.050229946005252095
+    },
+    {
+        "a": "liveness_%",
+        "b": "instrumentalness_%",
+        "correlation": -0.04598585270571089
+    },
+    {
+        "a": "liveness_%",
+        "b": "liveness_%",
+        "correlation": 1.0
+    },
+    {
+        "a": "liveness_%",
+        "b": "speechiness_%",
+        "correlation": -0.022598411574578075
+    },
+    {
+        "a": "speechiness_%",
+        "b": "streams",
+        "correlation": -0.11233299640338565
+    },
+    {
+        "a": "speechiness_%",
+        "b": "artist_count",
+        "correlation": 0.11948569232332754
+    },
+    {
+        "a": "speechiness_%",
+        "b": "in_spotify_playlists",
+        "correlation": -0.08997342146509514
+    },
+    {
+        "a": "speechiness_%",
+        "b": "in_spotify_charts",
+        "correlation": -0.08226727092484573
+    },
+    {
+        "a": "speechiness_%",
+        "b": "in_apple_playlists",
+        "correlation": -0.1085145290831603
+    },
+    {
+        "a": "speechiness_%",
+        "b": "in_apple_charts",
+        "correlation": -0.15244047025061286
+    },
+    {
+        "a": "speechiness_%",
+        "b": "in_deezer_charts",
+        "correlation": -0.0809196451433799
+    },
+    {
+        "a": "speechiness_%",
+        "b": "bpm",
+        "correlation": 0.03893679272721138
+    },
+    {
+        "a": "speechiness_%",
+        "b": "danceability_%",
+        "correlation": 0.1843934014998135
+    },
+    {
+        "a": "speechiness_%",
+        "b": "valence_%",
+        "correlation": 0.04187395542172341
+    },
+    {
+        "a": "speechiness_%",
+        "b": "energy_%",
+        "correlation": -0.0046316923371764246
+    },
+    {
+        "a": "speechiness_%",
+        "b": "acousticness_%",
+        "correlation": -0.023098639146643837
+    },
+    {
+        "a": "speechiness_%",
+        "b": "instrumentalness_%",
+        "correlation": -0.0835629913418909
+    },
+    {
+        "a": "speechiness_%",
+        "b": "liveness_%",
+        "correlation": -0.022598411574578075
+    },
+    {
+        "a": "speechiness_%",
+        "b": "speechiness_%",
+        "correlation": 1.0
+    }
+]
