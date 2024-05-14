@@ -18,7 +18,31 @@
 }))
   }</div>
 
+<div class="card">${
+    resize((width) => Plot.plot({
+    marginLeft: 90,
+    x: { axis: null },
+    y: { label: null }, 
+    marks: [
+      Plot.barX(spotify, {
+        x: "streams",
+        y: "artist(s)_name",
+        sort: { y: "x", reverse: true, limit: 10 }
+      }),
+      Plot.text(spotify, {
+        text: d => `${Math.floor(d.streams / 10000)} M`, 
+        y: "artist(s)_name",
+        x: "streams",
+        textAnchor: "start",
+        fill: "white",
+        sort: { y: "x", reverse: true, limit: 10 }
+      })
+    ]
+}))
+  }</div>
 
 ```js
 const correlations = FileAttachment("output.json").json({typed:true});
+
+const spotify = FileAttachment("/data/spotify-2023.csv").csv({typed:true});
 ```

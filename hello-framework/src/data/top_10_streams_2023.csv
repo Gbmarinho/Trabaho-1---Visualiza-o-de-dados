@@ -1,0 +1,11 @@
+track_name,artist(s)_name,artist_count,released_year,released_month,released_day,in_spotify_playlists,in_spotify_charts,streams,in_apple_playlists,in_apple_charts,in_deezer_playlists,in_deezer_charts,in_shazam_charts,bpm,key,mode,danceability_%,valence_%,energy_%,acousticness_%,instrumentalness_%,liveness_%,speechiness_%
+Flowers,Miley Cyrus,1,2023,1,12,12211,115,1316855716,300,215,745,58,"1,021",118,,Major,71,65,68,6,0,3,7
+Ella Baila Sola,"Eslabon Armado, Peso Pluma",2,2023,3,16,3090,50,725980112,34,222,43,13,418,148,F,Minor,67,83,76,48,0,8,3
+"Shakira: Bzrp Music Sessions, Vol. 53","Shakira, Bizarrap",2,2023,1,11,5724,44,721975598,119,108,254,29,22,122,D,Minor,78,50,63,27,0,9,5
+TQG,"Karol G, Shakira",2,2023,2,23,4284,49,618990393,115,123,184,18,354,180,E,Minor,72,61,63,67,0,9,28
+La Bebe - Remix,"Peso Pluma, Yng Lvcas",2,2023,3,17,2953,44,553634067,49,110,66,13,339,170,D,Minor,81,56,48,21,0,8,33
+Die For You - Remix,"Ariana Grande, The Weeknd",2,2023,2,24,3408,47,518745108,87,86,74,1,16,67,C#,Minor,53,50,53,23,0,44,7
+un x100to,"Bad Bunny, Grupo Frontera",2,2023,4,17,2876,40,505671438,41,205,54,12,251,83,F#,Minor,57,56,72,23,0,27,5
+Cupid - Twin Ver.,Fifty Fifty,1,2023,2,24,2942,77,496795686,91,212,78,6,0,120,B,Minor,78,76,59,43,0,34,3
+PRC,"Natanael Cano, Peso Pluma",2,2023,1,23,961,26,436027885,19,143,10,6,15,138,G,Minor,78,89,83,10,0,12,5
+OMG,NewJeans,1,2023,1,2,1783,27,430977451,26,124,15,1,22,127,A,Minor,80,74,77,36,0,11,4
