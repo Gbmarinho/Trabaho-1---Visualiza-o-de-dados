@@ -7,7 +7,7 @@
   label: null,
   color: { scheme: "rdylbu", pivot: 0, legend: true, label: "correlation" },
   marks: [
-    Plot.cell(correlations, { x: "a", y: "b", fill: "correlation" }),
+    Plot.cell(correlations, { x: "a", y: "b", fill: "correlation", tip: true}),
     Plot.text(correlations, {
       x: "a",
       y: "b",
@@ -25,7 +25,7 @@
     legend: true,
   },
   marks: [
-    Plot.dot(spotify, {x: "streams", y: "in_spotify_playlists", stroke: "streams"})
+    Plot.dot(spotify, {x: "streams", y: "in_spotify_playlists", stroke: "streams", tip: true})
   ]
 }) ) }</div> 
  <div class="card">${ resize((width) => Plot.plot({
@@ -35,7 +35,7 @@
     legend: true,
   },
   marks: [
-    Plot.dot(spotify, {x: "streams", y: "in_apple_playlists", stroke: "streams"})
+    Plot.dot(spotify, {x: "streams", y: "in_apple_playlists", stroke: "streams", tip: true},)
   ]
 }) ) }</div> 
  <div class="card">${ resize((width) => Plot.plot({
@@ -45,7 +45,7 @@
     legend: true,
   },
   marks: [
-    Plot.dot(spotify, {x: "streams", y: "in_deezer_playlists", stroke: "streams"})
+    Plot.dot(spotify, {x: "streams", y: "in_deezer_playlists", stroke: "streams", tip: true})
   ]
 }) ) }</div> 
  
