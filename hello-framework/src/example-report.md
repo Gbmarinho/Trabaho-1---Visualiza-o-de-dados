@@ -1,75 +1,121 @@
+# Analise dos dados - Questão 3 # Gráfico de
+
+<style>
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--sans-serif);
+  margin: 4rem 0 8rem;
+  text-wrap: balance;
+  text-align: center;
+}
+
+.hero h1 {
+  margin: 2rem 0;
+  max-width: none;
+  font-size: 14vw;
+  font-weight: 900;
+  line-height: 1;
+  background: linear-gradient(30deg, var(--theme-foreground-focus), currentColor);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero h2 {
+  margin: 0;
+  max-width: 34em;
+  font-size: 20px;
+  font-style: initial;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--theme-foreground-muted);
+}
+
+@media (min-width: 640px) {
+  .hero h1 {
+    font-size: 90px;
+  }
+}
+
+</style>
+
+<div class="hero">
+  <h1>Hello, Observable Framework</h1>
+  <h2>Welcome to your new project! Edit&nbsp;<code style="font-size: 90%;">src/index.md</code> to change this page.</h2>
+  <a href="https://observablehq.com/framework/getting-started">Get started<span style="display: inline-block; margin-left: 0.25rem;">↗︎</span></a>
+</div>
+
+<div class="grid grid-cols-2" style="grid-auto-rows: 504px;">
+  <div class="card">${
+    resize((width) => Plot.plot({
+      title: "Your awesomeness over time 🚀",
+      subtitle: "Up and to the right!",
+      width,
+      y: {grid: true, label: "Awesomeness"},
+      marks: [
+        Plot.ruleY([0]),
+        Plot.lineY(aapl, {x: "Date", y: "Close", tip: true})
+      ]
+    }))
+  }</div>
+  <div class="card">${
+    resize((width) => Plot.plot({
+      title: "How big are penguins, anyway? 🐧",
+      width,
+      grid: true,
+      x: {label: "Body mass (g)"},
+      y: {label: "Flipper length (mm)"},
+      color: {legend: true},
+      marks: [
+        Plot.linearRegressionY(penguins, {x: "body_mass_g", y: "flipper_length_mm", stroke: "species"}),
+        Plot.dot(penguins, {x: "body_mass_g", y: "flipper_length_mm", stroke: "species", tip: true})
+      ]
+    }))
+  }</div>
+</div>
+
+```js
+const aapl = FileAttachment("aapl.csv").csv({typed: true});
+const penguins = FileAttachment("penguins.csv").csv({typed: true});
+```
+
 ---
-title: Example report
----
 
-# A brief history of space exploration
+## Next steps
 
-This report is a brief overview of the history and current state of rocket launches and space exploration.
+Here are some ideas of things you could try…
 
-## Background
+<div class="grid grid-cols-4">
+  <div class="card">
+    Chart your own data using <a href="https://observablehq.com/framework/lib/plot"><code>Plot</code></a> and <a href="https://observablehq.com/framework/files"><code>FileAttachment</code></a>. Make it responsive using <a href="https://observablehq.com/framework/display#responsive-display"><code>resize</code></a>.
+  </div>
+  <div class="card">
+    Create a <a href="https://observablehq.com/framework/project-structure">new page</a> by adding a Markdown file (<code>whatever.md</code>) to the <code>src</code> folder.
+  </div>
+  <div class="card">
+    Add a drop-down menu using <a href="https://observablehq.com/framework/inputs/select"><code>Inputs.select</code></a> and use it to filter the data shown in a chart.
+  </div>
+  <div class="card">
+    Write a <a href="https://observablehq.com/framework/loaders">data loader</a> that queries a local database or API, generating a data snapshot on build.
+  </div>
+  <div class="card">
+    Import a <a href="https://observablehq.com/framework/imports">recommended library</a> from npm, such as <a href="https://observablehq.com/framework/lib/leaflet">Leaflet</a>, <a href="https://observablehq.com/framework/lib/dot">GraphViz</a>, <a href="https://observablehq.com/framework/lib/tex">TeX</a>, or <a href="https://observablehq.com/framework/lib/duckdb">DuckDB</a>.
+  </div>
+  <div class="card">
+    Ask for help, or share your work or ideas, on the <a href="https://talk.observablehq.com/">Observable forum</a>.
+  </div>
+  <div class="card">
+    Visit <a href="https://github.com/observablehq/framework">Framework on GitHub</a> and give us a star. Or file an issue if you’ve found a bug!
+  </div>
+</div>
 
-The history of rocket launches dates back to ancient China, where gunpowder-filled tubes were used as primitive forms of propulsion.
-
-Fast-forward to the 20th century during the Cold War era, the United States and the Soviet Union embarked on a space race, a competition to innovate and explore beyond Earth.
-
-This led to the launch of the first artificial satellite, Sputnik 1, and the crewed moon landing by Apollo 11. As technology advanced, rocket launches became synonymous with space exploration and satellite deployment.
-
-## The Space Shuttle era
-
-```js
-import {timeline} from "./components/timeline.js";
-```
-
-```js
-const events = FileAttachment("./data/events.json").json();
-```
-
-```js
-timeline(events, {height: 300})
-```
-
-### Sputnik 1 (1957)
-
-This was the first artificial satellite. Launched by the Soviet Union, it marked the beginning of the space age.
-
-### Apollo 11 (1969)
-
-The historic Apollo 11 mission, led by NASA, marked the first successful human landing on the Moon. Astronauts Neil Armstrong and Buzz Aldrin became the first humans to set foot on the lunar surface.
-
-### Viking 1 and 2 (1975)
-
-NASA’s Viking program successfully launched two spacecraft, Viking 1 and Viking 2, to Mars. These missions were the first to successfully land and operate on the Martian surface, conducting experiments to search for signs of life.
-
-### Space Shuttle Columbia (1981)
-
-The first orbital space shuttle mission, STS-1, launched the Space Shuttle Columbia on April 12, 1981. The shuttle program revolutionized space travel, providing a reusable spacecraft for a variety of missions.
-
-### Hubble Space Telescope (1990)
-
-The Hubble Space Telescope has provided unparalleled images and data, revolutionizing our understanding of the universe and contributing to countless astronomical discoveries.
-
-### International Space Station (ISS) construction (1998—2011)
-
-The ISS, a collaborative effort involving multiple space agencies, began construction with the launch of its first module, Zarya, in 1998. Over the following years, various modules were added, making the ISS a symbol of international cooperation in space exploration.
-
-## Commercial spaceflight
-
-After the Space Shuttle program, a new era emerged with a shift towards commercial spaceflight.
-
-Private companies like Blue Origin, founded by Jeff Bezos in 2000, and SpaceX, founded by Elon Musk in 2002, entered the scene. These companies focused on developing reusable rocket technologies, significantly reducing launch costs.
-
-SpaceX, in particular, achieved milestones like the first privately developed spacecraft to reach orbit (Dragon in 2010) and the first privately funded spacecraft to dock with the ISS (Dragon in 2012).
-
-## Recent launch activity
-
-The proliferation of commercial space companies has driven a surge in global launch activity within the last few years.
-
-SpaceX’s Falcon 9 and Falcon Heavy, along with other vehicles from companies like Rocket Lab, have become workhorses for deploying satellites, conducting scientific missions, and ferrying crew to the ISS.
-
-The advent of small satellite constellations, such as Starlink by SpaceX, has further fueled this increase in launches. The push for lunar exploration has added momentum to launch activities, with initiatives like NASA’s Artemis program and plans for crewed missions to the Moon and Mars.
-
-## Looking forward
-
-As technology continues to advance and global interest in space exploration grows, the future promises even more exciting developments in the realm of rocket launches and space travel.
-
-Exploration will not only be limited to the Moon or Mars, but extend to other parts of our solar system such as Jupiter and Saturn’s moons, and beyond.
+ ```js 
+ const topArtists = FileAttachment("/data/top_10_artists.csv").csv({typed:true}); 
+ const topStreams = FileAttachment("/data/top_10_streams.csv").csv({typed:true}); 
+ const topArtists2023 = FileAttachment("/data/top_10_artists.csv").csv({typed:true}); 
+ const topStreams2023 = FileAttachment("/data/top_10_streams.csv").csv({typed:true}); 
+ ```
+ 
