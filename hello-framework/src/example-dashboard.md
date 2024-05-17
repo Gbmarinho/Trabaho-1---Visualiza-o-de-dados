@@ -24,7 +24,7 @@ Assim, podemos perceber que existe uma variação considerável em ambos top 10 
                         y: "artist(s)_name",
                         sort: { y: "x", reverse: true, limit: 10},
                         tip: true,
-                        fill: "artist(s)_name"
+                        fill: "streams"
                     }), 
                     Plot.text(topArtists, {
                         y: "streams",
@@ -32,8 +32,8 @@ Assim, podemos perceber que existe uma variação considerável em ambos top 10 
                     })  
                 ],
             color: {
-                type: "categorical",
-                scheme: "category10",} 
+                type: "Sequential",
+                scheme: "Magma",} 
     })) }</div> 
   <div class="card">${ 
     resize((width) => Plot.plot( {
@@ -48,7 +48,7 @@ Assim, podemos perceber que existe uma variação considerável em ambos top 10 
                         y: "artist(s)_name",
                         sort: { y: "x", reverse: true, limit: 10},
                         tip: true,
-                        fill: "artist(s)_name"
+                        fill: "streams"
                     }), 
                     Plot.text(topArtists2023, {
                         y: "streams",
@@ -56,8 +56,8 @@ Assim, podemos perceber que existe uma variação considerável em ambos top 10 
                     })  
                 ],
             color: {
-                type: "categorical",
-                scheme: "category10",} 
+                type: "Sequential",
+                scheme: "Magma",}
     })) }</div> 
 
 
@@ -74,7 +74,7 @@ Assim, podemos perceber que existe uma variação considerável em ambos top 10 
                         y: "track_name",
                         sort: { y: "x", reverse: true, limit: 10},
                         tip: true,
-                        fill: "artist(s)_name"
+                        fill: "streams"
                     }), 
                     Plot.text(topStreams, {
                         y: "streams",
@@ -82,8 +82,8 @@ Assim, podemos perceber que existe uma variação considerável em ambos top 10 
                     })  
                 ],
             color: {
-                type: "categorical",
-                scheme: "category10",} 
+                type: "Sequential",
+                scheme: "Plasma",}
     })) }</div> 
   <div class="card">${ 
     resize((width) => Plot.plot( {
@@ -97,7 +97,7 @@ Assim, podemos perceber que existe uma variação considerável em ambos top 10 
                         y: "track_name",
                         sort: { y: "x", reverse: true, limit: 10},
                         tip: true,
-                        fill: "artist(s)_name"
+                        fill: "streams"
                     }), 
                     Plot.text(topStreams2023, {
                         y: "streams",
@@ -105,13 +105,9 @@ Assim, podemos perceber que existe uma variação considerável em ambos top 10 
                     })  
                 ],
             color: {
-                type: "categorical",
-                scheme: "category10",} 
+                type: "Sequential",
+                scheme: "Plasma",} 
     })) }</div> 
-
- 
-
-
 
  ```js 
  const topArtists = FileAttachment("/data/top_10_artists.csv").csv({typed:true}); 
