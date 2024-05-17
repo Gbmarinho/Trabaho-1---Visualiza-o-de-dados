@@ -1,4 +1,4 @@
-# Analise dos dados - Questão 2 # Gráfico de Barra
+# Analise dos dados - Questão 2 - Gráfico de Barra
   <div class="card">${ 
     resize((width) => Plot.plot( {
         title: "Artistas mais ouvidos em 2023",

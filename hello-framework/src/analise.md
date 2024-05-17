@@ -1,12 +1,17 @@
-# Analise dos dados -
-# Questão 1 - Gráfico de Dispersão
+# Análise dos dados - Questão 1 - Gráfico de Dispersão
+Para esta análise, escolhemos um correlograma e gráficos de dispersão.
+
+O correlograma mostra que existe maior grau de correlação entre streams e presença em playlists. Por isso, fizemos graficos de dispersão e conseguimos observar a seguinte tendência: 
+
+ Quanto maior a presença em playlists, mais streams terá a música.
+
 ---
-
 ### 1- Existe alguma característica que faz uma música ter mais chance de se tornar popular?
-
+---
 
  <div class="card" style="font-size: 16px">${
     resize((width) => Plot.plot({
+  title: "Correlograma das colunas",   
   width: 1500,
   height: 600,
   marginLeft: 100,
@@ -25,6 +30,7 @@
   }</div>
  
  <div class="card">${ resize((width) => Plot.plot({
+  title: "Presença em playlists no Spotify",   
   inset: 8,
   grid: true,
   color: {
@@ -35,6 +41,7 @@
   ]
 }) ) }</div> 
  <div class="card">${ resize((width) => Plot.plot({
+  title: "Presença em playlists na Apple",   
   inset: 8,
   grid: true,
   color: {
@@ -45,6 +52,7 @@
   ]
 }) ) }</div> 
  <div class="card">${ resize((width) => Plot.plot({
+  title: "Presença em playlists no Deezer",
   inset: 8,
   grid: true,
   color: {
