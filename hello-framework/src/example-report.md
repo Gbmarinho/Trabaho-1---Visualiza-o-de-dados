@@ -1,4 +1,20 @@
-# Analise dos dados - Questão 3 - Gráfico de
+# Analise dos dados - Questão 3 - Gráfico de Barras
+
+---
+### 3- Discuta as diferenças entre as plataformas (Spotify, Deezer, Apple Music e Shazam)?
+
+---
+
+Para esta análise, escolhemos o uso de gráficos de barras.
+
+Os gráficos mostram os charts das plataformas: Spotify,
+Shazam,
+Deezer e
+Apple.
+
+Charts são um método de classificar canções de acordo com sua popularidade durante um determinado período de tempo. 
+
+Nota-se que existe diferença clara entre os charts de cada plataforma, cada uma distinta em relação a outra. Logo, percebe-se que existe diversidade de público de acordo com a plataforma, que tem identidade refletida nas preferências dos usuários.
 
 <style>
 .button-group{
@@ -12,15 +28,19 @@
     justify-content:center;
     align-items:center;
     width: 70px;
-    border: 1px solid red;
+    border: 1px solid grey;
     border-radius: 10px;
     padding: 4px 0;
     font-size: 14px;
 }
 .toggle-button:hover{
-    
+     background-color: #b3bbe031;
 }
-
+.selected {
+    background-image: linear-gradient(147deg, #1E1E1E 0%, #161616 100%);
+    color: grey; 
+    transform: scale(0.95);
+}
 
 
 </style>
@@ -124,7 +144,7 @@
                 type: "categorical",
                 scheme: "RdPu",} 
     })) }</div>     
-
+<p>Clique para escolher a plataforma:<p>
 <div class="button-group">
             <div id="btn1" class="toggle-button">Spotify</div>    
             <div id="btn2" class="toggle-button">Shazam</div>    
@@ -189,6 +209,34 @@ meuElemento4.onclick = function(event) {
         document.getElementById('div4').style.display = 'block';
     }
     console.log(selected)
+};
+function updateSelection(newSelected) {
+    if(selected != newSelected){
+        selected = newSelected;
+        
+        document.getElementById('div1').style.display = (selected == 1) ? 'block' : 'none';
+        document.getElementById('div2').style.display = (selected == 2) ? 'block' : 'none';
+        document.getElementById('div3').style.display = (selected == 3) ? 'block' : 'none';
+        document.getElementById('div4').style.display = (selected == 4) ? 'block' : 'none';
+        
+        meuElemento1.classList.toggle('selected', selected == 1);
+        meuElemento2.classList.toggle('selected', selected == 2);
+        meuElemento3.classList.toggle('selected', selected == 3);
+        meuElemento4.classList.toggle('selected', selected == 4);
+    }
+}
+
+meuElemento1.onclick = function(event) {
+    updateSelection(1);
+};
+meuElemento2.onclick = function(event) {
+    updateSelection(2);
+};
+meuElemento3.onclick = function(event) {
+    updateSelection(3);
+};
+meuElemento4.onclick = function(event) {
+    updateSelection(4);
 };
 ```
 
