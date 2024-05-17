@@ -1,4 +1,16 @@
 # Analise dos dados - Questão 2 - Gráfico de Barra
+
+---
+### 2- O conjunto das top 10 músicas e dos top 10 artistas varia muito se considerarmos apenas musicas lançadas no mesmo ano?
+
+---
+
+Para esta análise, escolhemos o uso de gráficos de barra.
+
+Os gráficos mostram o top 10 de músicas e artistas mais ouvidos no ano de 2023, e mais ouvidos com lançamentos de 2023, respectivamente.
+
+Assim, podemos perceber que existe uma variação considerável em ambos top 10 se considerarmos apenas musicas lançadas no ano 2023.
+
   <div class="card">${ 
     resize((width) => Plot.plot( {
         title: "Artistas mais ouvidos em 2023",

@@ -1,13 +1,15 @@
 # Análise dos dados - Questão 1 - Gráfico de Dispersão
+
+---
+### 1- Existe alguma característica que faz uma música ter mais chance de se tornar popular?
+---
+
 Para esta análise, escolhemos um correlograma e gráficos de dispersão.
 
 O correlograma mostra que existe maior grau de correlação entre streams e presença em playlists. Por isso, fizemos graficos de dispersão e conseguimos observar a seguinte tendência: 
 
  Quanto maior a presença em playlists, mais streams terá a música.
 
----
-### 1- Existe alguma característica que faz uma música ter mais chance de se tornar popular?
----
 
  <div class="card" style="font-size: 16px">${
     resize((width) => Plot.plot({
