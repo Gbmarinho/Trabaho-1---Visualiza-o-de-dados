@@ -1,4 +1,10 @@
-# Analise dos dados - Questão 1 # Gráfico de Dispersão
+# Analise dos dados -
+# Questão 1 - Gráfico de Dispersão
+---
+
+### 1- Existe alguma característica que faz uma música ter mais chance de se tornar popular?
+
+
  <div class="card" style="font-size: 16px">${
     resize((width) => Plot.plot({
   width: 1500,
@@ -25,7 +31,7 @@
     legend: true,
   },
   marks: [
-    Plot.dot(spotify, {x: "streams", y: "in_spotify_playlists", stroke: "streams", tip: true})
+    Plot.dot(spotify, {x: "streams", y: "in_spotify_playlists", stroke: "streams", tip: true, channels:{nome: "track_name", artista: "artist(s)_name"}})
   ]
 }) ) }</div> 
  <div class="card">${ resize((width) => Plot.plot({
